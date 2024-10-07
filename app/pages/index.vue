@@ -15,7 +15,7 @@ import { universes } from '~/data/universes'
         </p>
       </header>
 
-      <div class="mb-8 grid gap-4 xl:grid-cols-2 justify-items-center w-fit m-auto ">
+      <div class="mb-8 grid gap-4 xl:grid-cols-2 w-fit m-auto">
         <UniverseCard
           v-for="universe in universes"
           :key="universe.name"
@@ -24,15 +24,6 @@ import { universes } from '~/data/universes'
           :route="universe.route"
           :image="universe.image"
         />
-      </div>
-
-      <div class="grid gap-4 xl:grid-cols-2">
-        <PageSection title="Rick and Morty API response">
-          <ExampleApiResponseRickAndMorty />
-        </PageSection>
-        <PageSection title="Pokemon API response">
-          <ExampleApiResponsePokemon />
-        </PageSection>
       </div>
     </UContainer>
   </div>
