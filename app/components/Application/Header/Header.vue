@@ -9,6 +9,12 @@
           <li>
             <ApplicationHeaderLink to="/assignment" label="Read the assignment instructions" />
           </li>
+          <li>
+            <ApplicationHeaderLink to="/rick-and-morty" label="Rick and Morty" />
+          </li>
+          <li>
+            <ApplicationHeaderLink to="/pokemon" label="Pokemon" />
+          </li>
         </ul>
       </nav>
       <div class="ml-auto">
