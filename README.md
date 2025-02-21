@@ -43,27 +43,29 @@ Fork this repository and submit your solution as a new repository. Once complete
 
    - **Do NOT hard-code**. Components should be flexible, designed for future use cases without significant changes.
 
-      ### Hard coding?
+     ### Hard coding?
 
-      Check out the following example:
+     Check out the following example:
 
-      ```ts
-      const props = defineProps<{
-         character: Character;
-      }>()
+     ```ts
+     const props = defineProps<{
+       character: Character
+     }>()
 
-      if (props.character.universe === 'Rick & Morty') {
-         // Do something
-      } else if (props.character.universe === 'Pokémon') {
-         // Do something else
-      } else {
-         createError('Invalid universe')
-      }
-      ```
+     if (props.character.universe === 'Rick & Morty') {
+       // Do something
+     }
+     else if (props.character.universe === 'Pokémon') {
+       // Do something else
+     }
+     else {
+       createError('Invalid universe')
+     }
+     ```
 
-      This is not scalable because you have to change the code every time you add a new universe.
+     This is not scalable because you have to change the code every time you add a new universe.
 
-      Instead, create a solution where you can easily add new universes without changing the existing code. Lots of components are not necessarily a bad thing if they are well-organized. Remember: composition over inheritance.
+     Instead, create a solution where you can easily add new universes without changing the existing code. Lots of components are not necessarily a bad thing if they are well-organized. Remember: composition over inheritance.
 
    - **Data Handling & UI Separation**: Build **UI components** that simply **take in data**, and create **other components** that manage and provide that data. Don’t put data-fetching or logic in UI components.
    - **Single Responsibility**: Each component should handle **one responsibility only**. Don’t pile everything into one component—keep logic and UI separate.
@@ -94,3 +96,16 @@ Fork this repository and submit your solution as a new repository. Once complete
 - [ ] **Clear Separation of Concerns**: No component should mix too much logic with rendering. Keep them single-purpose.
 - [ ] **Reusable Components**: Build components that are scalable and flexible.
 - [ ] **API Data Fetching**: Ensure data from the APIs is fetched and displayed correctly. Please check out the existing examples in the example code.
+
+## Assignment Updates
+
+### New Features Implemented
+
+- **Pinia Store Integration**: Created a Pinia store to fetch character details for **Rick and Morty** and **Pokémon**.
+- **Character Models**: Defined separate models for each character type (**Rick & Morty** and **Pokémon**) to standardize data handling.
+- **Dedicated Pages**: Developed dedicated pages for **Rick & Morty** and **Pokémon**, along with dynamic character pages to load individual character details.
+- **Character Component**: Implemented a **Character** component to display character lists and individual character details dynamically.
+- **Test Cases**: Basic unit tests have been added for the **Character Component**, with a scope to further enchance them. Could Run tests using the following command:
+  ```sh
+  pnpm test
+  ```
