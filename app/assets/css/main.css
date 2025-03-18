@@ -2,7 +2,6 @@
 @import '@nuxt/ui';
 @plugin '@tailwindcss/typography';
 
-
 @theme {
   --font-sans: 'Atkinson Hyperlegible', sans-serif;
   --font-serif: 'Judson', serif;
