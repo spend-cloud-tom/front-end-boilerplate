@@ -1,2 +1,10 @@
 @import 'tailwindcss' theme(static);
 @import '@nuxt/ui';
+@plugin '@tailwindcss/typography';
+
+
+@theme {
+  --font-sans: 'Atkinson Hyperlegible', sans-serif;
+  --font-serif: 'Judson', serif;
+  --font-mono: 'Input Mono', monospace;
+}

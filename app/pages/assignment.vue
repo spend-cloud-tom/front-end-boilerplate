@@ -7,6 +7,6 @@ const { data: page } = await useAsyncData(route.path, () => {
 
 <template>
   <UContainer class="max-w-3xl py-20">
-    <ContentRenderer v-if="page" :value="page" class="prose lg:prose-xl !max-w-none dark:prose-invert prose-headings:text-neutral-700 prose-headings:prose-a:text-neutral-700 dark:prose-headings:text-neutral-400 dark:prose-headings:prose-a:text-neutral-400 prose-headings:prose-a:no-underline" />
+    <ContentRenderer v-if="page" :value="page" class="prose prose-xl prose-strong:text-pink-950 dark:prose-strong:text-pink-100 lg:prose-2xl prose-headings:font-serif prose-headings:text-pink-900 prose-headings:prose-a:text-pink-900 dark:prose-headings:text-pink-100 dark:prose-headings:prose-a:text-pink-100 !max-w-none dark:prose-invert prose-headings:prose-a:no-underline" />
   </UContainer>
 </template>
