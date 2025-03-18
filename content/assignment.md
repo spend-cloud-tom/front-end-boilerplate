@@ -98,13 +98,15 @@ Fork the repository, implement your solution, and submit it as a new repository.
 
 Ensure your application meets these requirements before submission:
 
-- [ ] Separate overview pages for Rick & Morty and Pokémon
-- [ ] Detail pages for individual characters
-- [ ] Consistent design across all universes
-- [ ] Grid and list view options (bonus: each universe remembers its preferred view)
-- [ ] UI components focused exclusively on presentation
-- [ ] Data handling separated from rendering logic
-- [ ] Reusable component structure that accommodates different data sources
-- [ ] Proper API integration for data retrieval
+|     |                                                                                |
+| --- | ------------------------------------------------------------------------------ |
+| ✔  | Separate overview pages for Rick & Morty and Pokémon                           |
+| ✔  | Detail pages for individual characters                                         |
+| ✔  | Consistent design across all universes                                         |
+| ✔  | Grid and list view options (bonus: each universe remembers its preferred view) |
+| ✔  | UI components focused exclusively on presentation                              |
+| ✔  | Data handling separated from rendering logic                                   |
+| ✔  | Reusable component structure that accommodates different data sources          |
+| ✔  | Proper API integration for data retrieval                                      |
 
 This assignment tests your ability to build scalable, maintainable frontend applications through proper component design and architecture.
