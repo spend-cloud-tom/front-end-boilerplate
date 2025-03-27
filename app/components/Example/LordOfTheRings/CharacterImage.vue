@@ -12,7 +12,7 @@ const props = defineProps<{
       <img
         :src="props.character.image"
         :alt="props.character.nameFirst"
-        class="size-50 rounded-full border border-blue-900 dark:border-blue-200 shadow-xl overflow-hidden object-cover object-center"
+        class="size-50 rounded-full border border-neutral-900 dark:border-neutral-200 shadow-xl overflow-hidden object-cover object-center"
       >
     </template>
     <template #body>

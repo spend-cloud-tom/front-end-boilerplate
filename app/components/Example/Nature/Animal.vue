@@ -9,7 +9,7 @@ const props = defineProps<{
 <template>
   <ExampleCharacter :name="props.animal.name">
     <div v-if="props.animal.icon" class="flex justify-center">
-      <UIcon :name="props.animal.icon" class="w-60 h-60 dark:text-pink-300" />
+      <UIcon :name="props.animal.icon" class="w-60 h-60 dark:text-secondary-300" />
     </div>
     <ExampleCharacterDetail label="Latin name">
       {{ props.animal.nameLatin }}

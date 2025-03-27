@@ -9,7 +9,9 @@ useHead({
 <template>
   <VitePwaManifest />
   <UApp>
-    <ApplicationHeader />
-    <NuxtPage />
+    <Application>
+      <ApplicationHeader />
+      <NuxtPage />
+    </Application>
   </UApp>
 </template>
