@@ -41,7 +41,8 @@ The starter code includes examples for these universes—study them, learn from 
 
 While you have creative freedom, reference wireframes are provided to steer your implementation:
 
-::content-wireframes::
+::image-wireframes
+::
 
 ## Key Architectural Principles
 
