@@ -4,20 +4,24 @@ import type { LordOfTheRingsCharacterCollectionItem } from '@nuxt/content'
 const props = defineProps<{
   character: LordOfTheRingsCharacterCollectionItem
 }>()
-
-const backgroundSrc = computed(() => {
-  return `url("${props.character.image}")`
-})
 </script>
 
 <template>
-  <div class="size-50 bg-cover bg-center rounded-full border border-blue-900 dark:border-blue-200 shadow-xl">
-    <slot />
-  </div>
+  <UModal title="Character Image" :props="props.character" :fullscreen="true">
+    <template #default>
+      <img
+        :src="props.character.image"
+        :alt="props.character.nameFirst"
+        class="size-50 rounded-full border border-blue-900 dark:border-blue-200 shadow-xl overflow-hidden object-cover object-center"
+      >
+    </template>
+    <template #body>
+      <div class="justify-center items-center">
+        <img
+          :src="props.character.image"
+          :alt="props.character.nameFirst"
+        >
+      </div>
+    </template>
+  </UModal>
 </template>
-
-<style scoped>
-div {
-  background-image: v-bind(backgroundSrc);
-}
-</style>
