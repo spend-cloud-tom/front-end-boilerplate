@@ -12,12 +12,9 @@ const name = computed(() => {
 
 <template>
   <ExampleCharacter :name="name">
-    <UAvatar
-      :src="props.character.image"
-      :alt="name"
-      size="3xl"
-    />
-
+    <div class="flex justify-center mb-8">
+      <ExampleLordOfTheRingsCharacterImage :character="props.character" />
+    </div>
     <ExampleCharacterDetail label="Hobbies">
       <ExampleCharacterDetailList :items="props.character.hobbies" />
     </ExampleCharacterDetail>
