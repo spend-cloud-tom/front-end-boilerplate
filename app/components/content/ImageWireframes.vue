@@ -1,5 +1,10 @@
 <template>
-  <NuxtLink class="bg-blue-50 border border-blue-500 rounded-md shadow-md flex group hover:bg-blue-100 cursor-pointer" href="/images/wireframes.svg" target="_blank">
-    <img src="/images/wireframes.svg" alt="Wireframes">
-  </NuxtLink>
+  <UModal title="Wireframes" close-icon="mdi:close" :fullscreen="true">
+    <div class="dark:bg-blue-900 bg-blue-100 p-4 rounded border border-blue-500 shadow-lg group">
+      <img src="/images/wireframes.svg" alt="Wireframes" class="group-hover:scale-110 transition-transform duration-500 rounded shadow">
+    </div>
+    <template #body>
+      <img src="/images/wireframes.svg" alt="Wireframes" class="h-full w-full max-h-full max-w-full ">
+    </template>
+  </UModal>
 </template>
