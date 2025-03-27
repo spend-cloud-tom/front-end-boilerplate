@@ -3,5 +3,5 @@ const { data, status } = useRickAndMortyData('character')
 </script>
 
 <template>
-  <ExampleApiResponse v-if="status === 'success'" :response="data" />
+  <ExampleApiResponseContainer :status="status" :data="data" />
 </template>

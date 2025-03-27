@@ -3,5 +3,5 @@ const { data, status } = usePokemonData('pokemon')
 </script>
 
 <template>
-  <ExampleApiResponse v-if="status === 'success'" :response="data" />
+  <ExampleApiResponseContainer :status="status" :data="data" />
 </template>
