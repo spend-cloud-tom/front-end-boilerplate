@@ -35,9 +35,6 @@
     "typescript": "^5.8.2",
     "vue-tsc": "^2.2.2"
   },
-  "resolutions": {
-    "vue-tsc": "2.2.2"
-  },
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
@@ -45,5 +42,8 @@
       "esbuild",
       "vue-demi"
     ]
+  },
+  "resolutions": {
+    "vue-tsc": "2.2.2"
   }
 }
