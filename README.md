@@ -69,7 +69,6 @@ A much better approach: Design a flexible system where new universes can be adde
 
 Each component should do **one thing well**:
 
-
 ## Evaluation Criteria
 
 Your submission will be judged on:

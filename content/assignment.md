@@ -2,6 +2,7 @@
 title: Rick & Morty and Pokémon Overview Application
 description: Instructions for the Rick & Morty and Pokémon Overview Application assignment
 ---
+
 # Rick & Morty and Pokémon Application Challenge
 
 ## Overview
@@ -73,7 +74,6 @@ A much better approach: Design a flexible system where new universes can be adde
 #### Single Responsibility Principle
 
 Each component should do **one thing well**:
-
 
 ## Evaluation Criteria
 
