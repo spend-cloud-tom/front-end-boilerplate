@@ -31,14 +31,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-08-14',
 
   nitro: {
-    esbuild: {
-      options: {
-        target: 'esnext',
-      },
-    },
     prerender: {
-      crawlLinks: false,
-      routes: ['/', '/assignment'],
+      routes: [
+        '/',
+      ],
+      crawlLinks: true,
     },
   },
 
@@ -60,6 +57,10 @@ export default defineNuxtConfig({
         sortConfigKeys: true,
       },
     },
+  },
+
+  icon: {
+    provider: 'iconify',
   },
 
   pwa,

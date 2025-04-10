@@ -2,7 +2,6 @@
 title: Rick & Morty and Pokémon Overview Application
 description: Instructions for the Rick & Morty and Pokémon Overview Application assignment
 ---
-
 # Rick & Morty and Pokémon Application Challenge
 
 ## Overview
@@ -75,8 +74,6 @@ A much better approach: Design a flexible system where new universes can be adde
 
 Each component should do **one thing well**:
 
-- Data fetching components → **Only fetch and process data**
-- UI components → **Only render the provided data**
 
 ## Evaluation Criteria
 
@@ -86,7 +83,6 @@ Your submission will be judged on:
 2. **Component Reusability**: Can components be used across different contexts?
 3. **Scalability**: How easy is it to add new universes?
 4. **User Experience**: Is navigation and interaction smooth?
-5. **Technical Implementation**: Proper API integration and efficient data handling
 
 ## Submission Process
 
@@ -105,7 +101,6 @@ Before submitting, double-check that your app meets the following requirements:
 | ✔  | Consistent design across all universes                                         |
 | ✔  | Grid and list view options (bonus: each universe remembers its preferred view) |
 | ✔  | UI components focused exclusively on presentation                              |
-| ✔  | Data handling separated from rendering logic                                   |
 | ✔  | Reusable component structure that accommodates different data sources          |
 
 This assignment is all about building a **scalable, maintainable** frontend application while keeping things neat, modular, and fun. Happy coding! 🚀
